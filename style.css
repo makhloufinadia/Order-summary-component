@@ -1,0 +1,157 @@
+/*### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*:root {
+    --main-color:hsl(225, 100%, 94%);
+    --main-color-alt:hsl(245, 75%, 52%);
+    text-emphasis-color: hsl(225, 100%, 98%);
+   background-color: hsl(224, 23%, 55%);
+   color: hsl(223, 47%, 23%);
+
+
+}*/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Red Hat Display";
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+.music
+{
+    
+    margin: 150px;
+    margin-top:60px ;
+    margin-bottom: 60px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 2px;
+    border-radius: 30px;
+    background-color:white;
+    background-attachment: fixed;
+    
+
+}
+.musique {
+    border-radius: 30px 30px 0px 0px;
+    width: 412px;
+}
+.text
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h1
+{
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    color: hsl(223, 47%, 23%);
+}
+p {
+    margin : 5px;
+    padding : 0px;
+    color: hsl(224, 23%, 55%);
+    
+}
+.plan {
+
+    background-color: hsl(225, 100%, 98%);
+    border: 2px;
+    border-radius: 20px;
+    display: flex;
+    margin: 10px;
+    padding: 10px 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.row {
+    flex: display;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: space-between;
+    font-family: "Red Hat Display" ;
+    font-size: 30px;
+    
+}
+.button1
+{
+    border: 1px ;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color:hsl(245, 75%, 52%);
+    padding: 12px 100px;
+
+}
+.button2
+{
+    border: 1px ;
+    border-radius: 15px;
+    text-align: center;
+    color: hsl(224, 23%, 55%) ;
+    background-color:  white;
+    padding: 10px 20px;
+    
+
+}
+.plan img 
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+    
+    
+
+}
+h2 {
+    color: hsl(223, 47%, 23%);
+}
+
